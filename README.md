@@ -29,13 +29,13 @@ echo $new_title;
 ## 🇺🇸 Expected results:
 **Trimmed without function:**
 "Hello my wonderful wo..."
---
+
 **Trimmed with the function:**
 "Hello my wonderful..."
 
 ## 🇧🇷 Resultado esperado:
 **Título cortado SEM essa função:**
 "Olá meu mundo li..."
---
+
 **Título cortado COM essa função:**
 "Olá meu mundo..."
