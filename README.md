@@ -13,7 +13,7 @@
 	 $more -> define what you'll use to indicate that the title was trimmed. E.g.: ..., >>, +
 	 
 2. **Apply the function and echo the result:**
-$new_title = thehill_trim_title( get_the_title(), 30, '...');
+$new_title = trim_title_keep_words( get_the_title(), 30, '...');
 echo $new_title;
 
 ## 🇧🇷 Como usar essa função
@@ -24,7 +24,7 @@ echo $new_title;
 	 $more -> Defina que símbolo quer usar para indicar que o título foi cortado. Exemplo.: ..., >>, +
 	 
 2. **Aplique a função e imprima o resultado:**
-$new_title = thehill_trim_title( get_the_title(), 30, '...');
+$new_title = trim_title_keep_words( get_the_title(), 30, '...');
 echo $new_title;
 
 ## 🇺🇸 Expected results:
