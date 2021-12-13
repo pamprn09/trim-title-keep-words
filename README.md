@@ -8,8 +8,11 @@
 
  1. **Identify the paramaters for the function:**
 	 *trim_title_keep_words($title, $max_lenght, $more)*
+	 
 	 $title -> use WordPress function to get the title
+	 
 	 $max_lenght -> define the limit characters you want
+	 
 	 $more -> define what you'll use to indicate that the title was trimmed. E.g.: ..., >>, +
 	 
 2. **Apply the function and echo the result:**
@@ -19,8 +22,11 @@ echo $new_title;
 ## 🇧🇷 Como usar essa função
  1. **Identifique os parâmetros que serão usados na função:**
 	 *trim_title_keep_words($title, $max_lenght, $more)*
-	  $title -> use a função do Wordpress para pegar o título
+	 
+	 $title -> use a função do Wordpress para pegar o título
+	 
 	 $max_lenght -> defina quantos characteres devem ter no máximo
+	 
 	 $more -> Defina que símbolo quer usar para indicar que o título foi cortado. Exemplo.: ..., >>, +
 	 
 2. **Aplique a função e imprima o resultado:**
