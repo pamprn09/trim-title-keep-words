@@ -1,3 +1,5 @@
+<?php
+
 function trim_title_keep_words($title, $max_lenght, $more)  {
     // Title will remain untouched if character counut is smaller than max lenght
     // O título permanecerá intacto se a quantidade de caracteres for menor que o máximo estabeleido.
